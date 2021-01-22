@@ -1,0 +1,133 @@
+@media (max-width: 425px) {
+    .form {
+        width: 100%;
+        grid-row-gap: 25px
+    }
+
+    .form__subtitle {
+        font-size: 15px;
+    }
+
+    .form__title {
+        font-size: 25px
+    }
+
+    .form-title-wrapper {
+        width: 90%;
+    }
+
+    .info {
+        width: 100%;
+        grid-row-gap: 27px;
+    }
+
+    .input-title {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .input {
+        font-size: 15px;
+        width: 100%;
+        height: 3.167em;
+    }
+
+    ::-webkit-input-placeholder {
+        font-size: 15px;
+    }
+
+    .dropdown {
+        width: 100%;
+    }
+
+    .dropdown__list {
+        min-width: 85%;
+        min-height: 20%;
+    }
+
+    .submit {
+        width: 100%;
+
+    }
+
+    .submit-checkbox {
+        width: 100%;
+    }
+
+    .submit-input {
+        width: 100%;
+    }
+
+    .checkbox__label {
+        font-size: 15px;
+    }
+
+    .check__box {
+        width: 25px;
+        height: 25px;
+    }
+
+    .submit-input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .form {
+        padding: 25.41px 30px 25.49px 30px;
+    }
+
+    ::-webkit-input-placeholder {
+        font-size: 13px;
+    }
+
+    .form__title {
+        font-size: 22px;
+    }
+
+    .form__subtitle {
+        font-size: 13px;
+        margin: 2px 0 2px 0;
+    }
+
+    .input-wrapper>.input-title {
+        font-size: 14px;
+    }
+
+    .input {
+        font-size: 13px;
+        width: 100%;
+        height: 2.867em;
+    }
+
+    .dropdown {
+        height: 2.867em;
+        font-size: 13px;
+    }
+
+    .dropdown>.dropdown-placeholder {
+        padding: 8px 57px 8px 0px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .dropdown__list {
+        min-width: 82%;
+        min-height: 15%;
+    }
+
+    .dropdown__item {
+        height: 37px;
+        font-size: 14px;
+    }
+
+    .checkbox__label {
+        font-size: 13px;
+    }
+
+    .check__box {
+        width: 23px;
+        height: 23px;
+    }
+
+}
